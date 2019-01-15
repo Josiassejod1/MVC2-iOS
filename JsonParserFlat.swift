@@ -1,14 +1,14 @@
 //
-//  JsonParser.swift
+//  JsonParserFlat.swift
 //  MarvelVsCapcom2
 //
-//  Created by Dalvin Sejour on 1/14/19.
+//  Created by Dalvin Sejour on 1/15/19.
 //  Copyright © 2019 Dalvin Sejour. All rights reserved.
 //
 
 import Foundation
 
-class JsonParser {
+class JsonParserFlat {
     static func parse(data: Data) -> [[String: AnyObject]]? {
         let options = JSONSerialization.ReadingOptions()
         do {

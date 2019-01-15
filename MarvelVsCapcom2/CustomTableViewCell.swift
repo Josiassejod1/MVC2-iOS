@@ -10,10 +10,18 @@ import UIKit
 
 class CustomTableViewCell: UITableViewCell {
 
+    @IBOutlet var characterImage: UIImageView!
+    @IBOutlet var characterName: UILabel!
+    @IBOutlet var moveButton: UIButton!
+    @IBOutlet var moveImage: UIImageView!
+    @IBOutlet var moveName: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
     }
+    
+    
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)

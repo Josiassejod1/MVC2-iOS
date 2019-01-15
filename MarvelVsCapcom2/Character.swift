@@ -7,3 +7,14 @@
 //
 
 import Foundation
+
+struct Character {
+    var name: String = ""
+    var head_shot: String = ""
+    var  universe : String = ""
+    init(name: String, head_shot: String, universe: String) {
+        self.name = name
+        self.head_shot = head_shot
+        self.universe = universe
+    }
+}

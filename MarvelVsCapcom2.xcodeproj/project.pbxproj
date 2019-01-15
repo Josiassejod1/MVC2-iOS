@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8BCE3FD521EE38C9004793E8 /* mvc2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8BCE3FD421EE38C9004793E8 /* mvc2.jpg */; };
+		8BCE3FD721EE3B70004793E8 /* GrassGreen_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BCE3FD621EE3B70004793E8 /* GrassGreen_2.png */; };
+		8BCE3FDB21EE4538004793E8 /* Moves.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCE3FDA21EE4538004793E8 /* Moves.swift */; };
+		8BCE3FDF21EE4BD7004793E8 /* MoveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCE3FDE21EE4BD7004793E8 /* MoveViewController.swift */; };
+		8BCE3FE121EE739A004793E8 /* MoveDataProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCE3FE021EE739A004793E8 /* MoveDataProcessor.swift */; };
+		8BCE3FE321EE7669004793E8 /* JsonParserFlat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCE3FE221EE7669004793E8 /* JsonParserFlat.swift */; };
 		8BFC75DD21ECEA8F002C7F6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFC75DC21ECEA8F002C7F6F /* AppDelegate.swift */; };
 		8BFC75DF21ECEA8F002C7F6F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFC75DE21ECEA8F002C7F6F /* ViewController.swift */; };
 		8BFC75E221ECEA8F002C7F6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BFC75E021ECEA8F002C7F6F /* Main.storyboard */; };
@@ -14,6 +20,11 @@
 		8BFC75E721ECEA90002C7F6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BFC75E521ECEA90002C7F6F /* LaunchScreen.storyboard */; };
 		8BFC75F221ECEA91002C7F6F /* MarvelVsCapcom2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFC75F121ECEA91002C7F6F /* MarvelVsCapcom2Tests.swift */; };
 		8BFC75FD21ECEA91002C7F6F /* MarvelVsCapcom2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFC75FC21ECEA91002C7F6F /* MarvelVsCapcom2UITests.swift */; };
+		8BFC760B21ECEC0D002C7F6F /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFC760A21ECEC0D002C7F6F /* Character.swift */; };
+		8BFC760D21ECED25002C7F6F /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFC760C21ECED25002C7F6F /* CustomTableViewCell.swift */; };
+		8BFC761121ECF1AC002C7F6F /* HTTPHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFC761021ECF1AC002C7F6F /* HTTPHandler.swift */; };
+		8BFC761321ECF208002C7F6F /* CharacterDataProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFC761221ECF208002C7F6F /* CharacterDataProcessor.swift */; };
+		8BFC761521ECF4F7002C7F6F /* JsonParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFC761421ECF4F7002C7F6F /* JsonParser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +45,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8BCE3FD421EE38C9004793E8 /* mvc2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mvc2.jpg; path = ../../Downloads/mvc2.jpg; sourceTree = "<group>"; };
+		8BCE3FD621EE3B70004793E8 /* GrassGreen_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GrassGreen_2.png; path = ../GrassGreen_2.png; sourceTree = "<group>"; };
+		8BCE3FDA21EE4538004793E8 /* Moves.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moves.swift; sourceTree = "<group>"; };
+		8BCE3FDE21EE4BD7004793E8 /* MoveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveViewController.swift; sourceTree = "<group>"; };
+		8BCE3FE021EE739A004793E8 /* MoveDataProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveDataProcessor.swift; sourceTree = "<group>"; };
+		8BCE3FE221EE7669004793E8 /* JsonParserFlat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonParserFlat.swift; sourceTree = "<group>"; };
 		8BFC75D921ECEA8F002C7F6F /* MarvelVsCapcom2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarvelVsCapcom2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BFC75DC21ECEA8F002C7F6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8BFC75DE21ECEA8F002C7F6F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +64,11 @@
 		8BFC75F821ECEA91002C7F6F /* MarvelVsCapcom2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarvelVsCapcom2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BFC75FC21ECEA91002C7F6F /* MarvelVsCapcom2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelVsCapcom2UITests.swift; sourceTree = "<group>"; };
 		8BFC75FE21ECEA91002C7F6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BFC760A21ECEC0D002C7F6F /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		8BFC760C21ECED25002C7F6F /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		8BFC761021ECF1AC002C7F6F /* HTTPHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPHandler.swift; sourceTree = "<group>"; };
+		8BFC761221ECF208002C7F6F /* CharacterDataProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDataProcessor.swift; sourceTree = "<group>"; };
+		8BFC761421ECF4F7002C7F6F /* JsonParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonParser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +99,11 @@
 		8BFC75D021ECEA8F002C7F6F = {
 			isa = PBXGroup;
 			children = (
+				8BCE3FE221EE7669004793E8 /* JsonParserFlat.swift */,
+				8BCE3FDE21EE4BD7004793E8 /* MoveViewController.swift */,
+				8BCE3FD421EE38C9004793E8 /* mvc2.jpg */,
+				8BCE3FD621EE3B70004793E8 /* GrassGreen_2.png */,
+				8BFC761021ECF1AC002C7F6F /* HTTPHandler.swift */,
 				8BFC75DB21ECEA8F002C7F6F /* MarvelVsCapcom2 */,
 				8BFC75F021ECEA91002C7F6F /* MarvelVsCapcom2Tests */,
 				8BFC75FB21ECEA91002C7F6F /* MarvelVsCapcom2UITests */,
@@ -99,6 +126,12 @@
 			children = (
 				8BFC75DC21ECEA8F002C7F6F /* AppDelegate.swift */,
 				8BFC75DE21ECEA8F002C7F6F /* ViewController.swift */,
+				8BCE3FE021EE739A004793E8 /* MoveDataProcessor.swift */,
+				8BCE3FDA21EE4538004793E8 /* Moves.swift */,
+				8BFC761421ECF4F7002C7F6F /* JsonParser.swift */,
+				8BFC761221ECF208002C7F6F /* CharacterDataProcessor.swift */,
+				8BFC760C21ECED25002C7F6F /* CustomTableViewCell.swift */,
+				8BFC760A21ECEC0D002C7F6F /* Character.swift */,
 				8BFC75E021ECEA8F002C7F6F /* Main.storyboard */,
 				8BFC75E321ECEA90002C7F6F /* Assets.xcassets */,
 				8BFC75E521ECEA90002C7F6F /* LaunchScreen.storyboard */,
@@ -229,9 +262,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BCE3FD721EE3B70004793E8 /* GrassGreen_2.png in Resources */,
 				8BFC75E721ECEA90002C7F6F /* LaunchScreen.storyboard in Resources */,
 				8BFC75E421ECEA90002C7F6F /* Assets.xcassets in Resources */,
 				8BFC75E221ECEA8F002C7F6F /* Main.storyboard in Resources */,
+				8BCE3FD521EE38C9004793E8 /* mvc2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +291,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BCE3FE321EE7669004793E8 /* JsonParserFlat.swift in Sources */,
+				8BFC761121ECF1AC002C7F6F /* HTTPHandler.swift in Sources */,
+				8BFC760B21ECEC0D002C7F6F /* Character.swift in Sources */,
+				8BCE3FDF21EE4BD7004793E8 /* MoveViewController.swift in Sources */,
 				8BFC75DF21ECEA8F002C7F6F /* ViewController.swift in Sources */,
+				8BFC760D21ECED25002C7F6F /* CustomTableViewCell.swift in Sources */,
+				8BCE3FDB21EE4538004793E8 /* Moves.swift in Sources */,
+				8BFC761321ECF208002C7F6F /* CharacterDataProcessor.swift in Sources */,
+				8BCE3FE121EE739A004793E8 /* MoveDataProcessor.swift in Sources */,
+				8BFC761521ECF4F7002C7F6F /* JsonParser.swift in Sources */,
 				8BFC75DD21ECEA8F002C7F6F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
