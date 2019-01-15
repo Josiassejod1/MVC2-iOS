@@ -18,12 +18,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsMultipleSelection="YES" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="CjN-Ll-Qbi">
-                                <rect key="frame" x="0.0" y="94" width="375" height="573"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleAspectFit" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsMultipleSelection="YES" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="CjN-Ll-Qbi">
+                                <rect key="frame" x="0.0" y="32" width="375" height="667"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="sectionIndexBackgroundColor" red="0.00014873206001764228" green="0.00023073437556331289" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="customcell" rowHeight="131" id="aiJ-9x-CsU" customClass="CustomTableViewCell" customModule="MarvelVsCapcom2" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleAspectFit" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="customcell" rowHeight="131" id="aiJ-9x-CsU" customClass="CustomTableViewCell" customModule="MarvelVsCapcom2" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="131"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="aiJ-9x-CsU" id="vdo-Zk-lU0" customClass="CustomTableViewCell" customModule="MarvelVsCapcom2" customModuleProvider="target">
@@ -56,7 +56,13 @@
                                 </connections>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.0" green="0.093641497320862577" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="CjN-Ll-Qbi" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="Gfz-Kb-rBk"/>
+                            <constraint firstItem="CjN-Ll-Qbi" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="hHJ-aI-czy"/>
+                            <constraint firstItem="CjN-Ll-Qbi" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="lhC-H6-hPn"/>
+                            <constraint firstItem="CjN-Ll-Qbi" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="ntA-KL-Jm8"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="hCo-bf-9fJ"/>
@@ -76,9 +82,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="HZ3-q9-pxO">
-                                <rect key="frame" x="0.0" y="102" width="375" height="519"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="HZ3-q9-pxO">
+                                <rect key="frame" x="0.0" y="32" width="375" height="667"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="customcell" rowHeight="86" id="Y0l-Lc-0UJ" customClass="CustomTableViewCell" customModule="MarvelVsCapcom2" customModuleProvider="target">
@@ -109,6 +114,12 @@
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="HZ3-q9-pxO" firstAttribute="centerX" secondItem="FTb-AD-M63" secondAttribute="centerX" id="8no-Ky-0nQ"/>
+                            <constraint firstItem="HZ3-q9-pxO" firstAttribute="centerY" secondItem="FTb-AD-M63" secondAttribute="centerY" id="aZn-aE-Wfp"/>
+                            <constraint firstItem="HZ3-q9-pxO" firstAttribute="height" secondItem="ecF-mN-SSo" secondAttribute="height" id="sLK-PN-NqT"/>
+                            <constraint firstItem="HZ3-q9-pxO" firstAttribute="width" secondItem="ecF-mN-SSo" secondAttribute="width" id="wcW-aG-rZT"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="FTb-AD-M63"/>
                     </view>
                     <connections>
